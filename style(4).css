@@ -1,0 +1,59 @@
+.div-3rd{
+    display: flex;
+    flex-direction: column;
+    width :30%;
+    height: auto;
+    border-color: rgb(117, 117, 117);
+    
+    justify-content: center;
+    
+    margin-left: 35%;
+}
+form{
+    margin-top: 50px;
+}
+.fdsa{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:rgb(117, 117, 117);
+
+}
+.div-3rd label{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+}
+
+@media only screen and (width:887px){
+    .div-3rd{
+        width: auto;
+    }
+}
+/* .div-3rd .i1{
+    margin-left: 125px;
+}
+.i2{
+    margin-left: 126px;
+}
+.i3{
+    margin-left: 150px ;
+}
+.i4{
+    margin-left: 85px;
+} */
+button{
+    width: 100px;
+    color: whitesmoke;
+
+    border-radius: 5px;
+    align-self: center;
+    background-color: rgb(117, 117, 117);
+    font-weight: bold;
+  
+}
+

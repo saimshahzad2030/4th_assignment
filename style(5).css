@@ -1,0 +1,73 @@
+.frm{
+    display: flex;
+    flex-direction: column;
+    width :40%;
+    height: auto;
+    border-color: rgb(117, 117, 117);
+    
+  
+    
+    margin-left: 30%;
+}
+.poi{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: dimgrey;
+    margin-top: 25px;
+}
+
+.frm label{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+}
+
+/* 
+.address{
+    margin-left: 100px;
+} */
+.tablo tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.tablo textarea{
+    margin-left: 63px;
+}
+.gender{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gender div{
+    display: flex;
+    justify-content: start;
+    width: auto;
+    height: auto;
+}
+.gender div input{
+    margin-top: 3px;
+}
+.lko{
+    display: flex;
+    justify-content: start;
+    
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+}
+.divdiv{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    width: fit-content;
+}

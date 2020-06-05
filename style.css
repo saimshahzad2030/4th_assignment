@@ -1,0 +1,194 @@
+
+.carouselExampleIndicator1s,.carousel{
+    text-align: center;
+    width: 100% !important;
+    height: 480px !important;
+}
+.d-block{
+    width: auto!important;
+    height: 495px;
+}
+.h1{
+    
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 15px;
+    color: rgb(117, 117, 117);
+}
+.navbar{
+    background-color: rgb(202, 202, 202)  !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: black !important;
+}
+/* .fa{
+    font-size:20px ; margin-top: 5px; margin: 10px; background: none ; border: none; color: rgb(10, 119, 28); transform: rotate(0deg)!important;
+} */
+.fa-instagram{
+    font-size:20px ; margin-top: 8px; margin-right: 10px; background: none ; border: none; color: rgb(216, 47, 84); transform: rotate(0deg)!important;
+}
+.fa-whatsapp{
+    font-size:20px ; margin-top: 8px; margin-right: 10px; background: none ; border: none; color: rgb(29, 216, 60); transform: rotate(0deg)!important;
+}
+.fa-facebook{
+    font-size:20px ; margin-top: 8px; margin-right: 10px; background: none ; border: none; color: rgb(15, 38, 247); transform: rotate(0deg)!important;
+}
+.navbar-nav{
+    color: rgb(58, 58, 58) !important;
+}
+.mnb marquee{
+    background-color: rgb(117, 117, 117);
+    color: whitesmoke;
+}
+.img-fluid{
+    padding-left: 48%;
+    padding-top: 50px;
+   
+}
+.bella {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.imgbh{
+    margin-bottom: 20px;
+}
+.imgh{
+    margin-bottom: 15px;
+}
+.navbar-nav li{
+    color:whitesmoke;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: whitesmoke !important;
+}
+.ciao-2,.ciao-3,.ciao-1{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.bella a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+ .asd > h2,h4{
+text-decoration: none !important;
+}
+.bella h2{
+    margin-bottom: 15px;
+    color: rgb(117, 117, 117);
+    text-transform: capitalize;
+}
+.bella h4{
+    color: rgb(144, 145, 145);
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.container-fluid{
+    background-color: rgb(0, 0, 0) !important;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100% ;
+    height: auto;
+
+}
+.container-fluid h1{
+    padding-top: 30px;
+    color: rgb(202, 202, 202);
+    padding-left: 20px;
+}
+.connect{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    background:transparent;
+    justify-content: flex-start;
+    width: 400px;
+    margin-top: 10px;
+    height: auto;
+}
+.connect div{
+    display: flex;
+    justify-content: space-around;
+    width: 230px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+@media screen and (max-width:830px){
+.container-fluid{
+    height: 550px;
+}
+.connect{
+    margin-left: 0px;
+
+}
+.connect .blio{
+    margin-left: 20px;
+    width: 280px;
+    padding-bottom: 20px;
+}
+
+}
+.connect h1{
+    font-size: 37px;
+}
+.connn{
+    margin-top: 10px;
+    width: 400px;
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.connn h2{
+    padding-top: 30px;
+    color: rgb(202, 202, 202);
+    font-size: 40px;
+    padding-left: 20px;
+}
+.fa-phone{
+    font-size:20px ; background: none; border: none; color: rgb(10, 119, 28); transform: rotate(0deg);
+}
+.fa-envelope-o{
+    font-size:20px ; background: none; border: none; color: rgb(10, 119, 28); transform: rotate(0deg)
+}
+.connn p{
+    color: rgb(156, 156, 156);
+}
+.last_div{
+    padding-top: 13px;
+    padding-left: 30px;
+}
+.blio{
+    padding-left: 10px;
+}
+.footer{
+    background-color:  rgb(117, 117, 117);
+    height: 45px;
+    width: 100%;
+}
+.inside{
+    text-align: center !important;
+}
+.inside p{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}

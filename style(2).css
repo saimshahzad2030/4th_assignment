@@ -1,0 +1,71 @@
+.barradiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-phone{
+    color: rgb(96, 116, 230);
+}
+.fa-envelope-o{
+    color: red;
+}
+.fa-globe{
+    color: rgb(113, 113, 247);
+}
+.chota-div-2,.chota-div-1,.chota-div-3,.chota-div-4{
+    margin-top: 20px;
+}
+.barradiv .p1{
+  margin-top: 20px;
+}
+.barradiv h5{
+    font-weight: bold;
+   color:  rgb(117, 117, 117);
+}
+.barradiv p{
+    font-size: 20px;
+}
+.chota-div-b{
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+@media only screen and (max-width:647px){
+    .chota-div-2,.chota-div-1,.chota-div-3,.chota-div-4{
+        width:100%;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+.about-div{
+    
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.about-div h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(117, 117, 117) ;
+}
+.about-div-1 {
+    width: 100%;
+    height: auto;
+}
+.about-div-1 p{
+    padding-left: 70px;
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-right: 70px;
+}
+.chota-div-a .p1{
+    text-align: justify ;
+}
